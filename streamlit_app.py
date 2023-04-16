@@ -6,9 +6,6 @@ import pandas as pd
 import base64
 
 import numpy as np
-import plotly.express as px
-import plotly.figure_factory as ff
-import plotly.graph_objects as go
 
 def create_download_link(val, filename):
     b64 = base64.b64encode(val)  # val looks like b'...'
